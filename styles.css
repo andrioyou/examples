@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background-color: #f6f9ff;
+}
+
+.page {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ad {
+  display: block;
+  position: relative;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  box-shadow: 0px 15px 30px 0px rgb(42, 116, 237, 10%);
+  text-align: center;
+  padding: 30px;
+}
+
+.image {
+  max-width: 200px;
+  height: auto;
+}
+
+.title {
+  margin: 0;
+}
+
+.description {
+  margin: 15px 0 0;
+}
+
+.link {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.close:hover {
+  color: grey;
+}

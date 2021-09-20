@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background-color: #f6f9ff;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  transition: 0.3s all;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
